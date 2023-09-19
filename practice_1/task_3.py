@@ -11,3 +11,7 @@ height = input()
 
 #Ваш кол
 
+weight = int(weight)
+height = int(height)
+
+print(weight / (height * height)
