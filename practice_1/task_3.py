@@ -9,9 +9,9 @@ weight = input()
 height = input()
 
 
-#Ваш кол
+# Ваш кол
 
-weight = int(weight)
-height = int(height)
+weight = float(weight)
+height = float(height)
 
-print(weight / (height * height)
+print(weight / (height * height))

@@ -7,6 +7,7 @@
 @author: Savant
 """
 
+
 def digits(num: int, *, base: int = 10):
     num = int(str(num)[::-1])
     while num > 0:
@@ -25,13 +26,15 @@ def main():
             continue
 
         if not (1000 <= num <= 9999):
-            print("Error: not a 4-digit number")
+            print("Error: not a 4-digit number!")
             continue
 
-        num_digits = list(digits(num))
-        message = f"{' + '.join(str(d) for d in num_digits)} = {sum(num_digits)}"
+        break
 
-        print(message)
+    num_digits = list(digits(num))
+    message = f"{' + '.join(str(d) for d in num_digits)} = {sum(num_digits)}"
+
+    print(message)
 
 
 if __name__ == "__main__":
