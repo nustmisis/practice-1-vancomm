@@ -8,7 +8,6 @@ BMI = вес/рост**2
 weight = input()
 height = input()
 
-
 # Ваш кол
 
 weight = float(weight)
